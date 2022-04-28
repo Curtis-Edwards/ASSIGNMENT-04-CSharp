@@ -5,17 +5,26 @@ class Program
     public static void Main(string[] args)
     {
         // This function accepts user input
-        int radius;
-        double pi = Math.PI;
-        double area;
+        double pizzaprice;
+        double toppingprice;
+        double totalprice
+        double tax
 
-        Console.WriteLine("Please enter the radius of the circle");
+
+        Console.WriteLine("Please enter size of you pizza");
         Console.WriteLine("");
 
-        Console.Write("radius: ");
-        radius = Convert.ToInt32(Console.ReadLine());
+        Console.Write("pizzaprice: ");
+        pizzaprice = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
+
+        if () {
+            
+        }
         area = (pi * radius) * radius;
+
+
+
 
         Console.WriteLine("Area: " + area.ToString("0.00") + "cm²");
 

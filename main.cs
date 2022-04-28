@@ -36,7 +36,7 @@ class Program
         toppingprice = 1.75;
         }
         if ( toppings  == 3 ) {
-        toppingprice = 2.25;
+        toppingprice = 2.50;
         }
         if ( toppings  == 4 ) {
         toppingprice = 3.35;

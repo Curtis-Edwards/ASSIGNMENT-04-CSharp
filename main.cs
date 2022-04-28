@@ -15,13 +15,13 @@ class Program
         Console.WriteLine("Please enter size of you pizza");
         Console.WriteLine("");
 
-        Console.Write("pizza size? (1: lagre / 2 extralarge): ");
+        Console.Write("pizza size? (1: lagre / 2 extralarge):");
         pizzasize = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
-        Console.Write("Toppings? : ");
+        Console.Write("Toppings? :");
         toppings = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
-      
+
         if ( pizzasize == 1 ) {
         pizzaprice = 6.00;
         }
@@ -41,7 +41,6 @@ class Program
         if ( toppings  == 4 ) {
         toppingprice = 3.35;
         }
-        
 
         tax = ( pizzaprice + toppingprice ) * 0.13;
         totalprice = ( pizzaprice + toppingprice ) + tax;

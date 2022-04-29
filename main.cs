@@ -22,24 +22,24 @@ class Program
         toppings = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
 
-        if (pizzasize == 1) {
-        pizzaprice = 6.00;
+        if (pizzasize == 1){
+            pizzaprice = 6.00;
         }
-        if (pizzasize == 2) {
-        pizzaprice = 10.00;
+        if (pizzasize == 2){
+            pizzaprice = 10.00;
         }
 
-        if (toppings  == 1) {
-        toppingprice = 1.00;
+        if (toppings  == 1){
+            toppingprice = 1.00;
         }
-        if (toppings  == 2) {
-        toppingprice = 1.75;
+        if (toppings  == 2){
+            toppingprice = 1.75;
         }
-        if (toppings  == 3) {
-        toppingprice = 2.50;
+        if (toppings  == 3){
+            toppingprice = 2.50;
         }
-        if (toppings  == 4) {
-        toppingprice = 3.35;
+        if (toppings  == 4){
+            toppingprice = 3.35;
         }
 
         tax = (pizzaprice + toppingprice) * 0.13;
